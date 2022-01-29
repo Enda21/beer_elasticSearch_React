@@ -1,0 +1,13 @@
+# Database Service (Postgres)
+db:
+  container_name: beer-db
+  image: postgres:11
+  restart: always
+  ports:
+  - 5432:5432
+  environment:
+    POSTGRES_USER: Postgres
+    POSTGRES_PASSWORD: Welcome
+    POSTGRES_DB: beer_app
+  volumes:
+      - ./V1_1__Create_beer_table.sql:/docker-entrypoint-initdb.d/V1_1__Create_beer_table.sql
