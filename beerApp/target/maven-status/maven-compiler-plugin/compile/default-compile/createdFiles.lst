@@ -1,0 +1,5 @@
+com/beer/beerApp/controller/BeerController.class
+com/beer/beerApp/BeerAppApplication.class
+com/beer/beerApp/modal/Beer$BeerBuilder.class
+com/beer/beerApp/repositories/BeerRepository.class
+com/beer/beerApp/modal/Beer.class
